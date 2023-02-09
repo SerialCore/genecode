@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
     return 0;
 }
 
-void get_help()
+void get_help() 
 {
     printf("A genecode controller for anOS\n");
     printf("\nUSAGE\n");
@@ -63,7 +63,7 @@ void get_help()
     printf("\t-c\tcreate a fully random code\n");
     printf("\t-x\tdisplay a hex dump for code\n");
     printf("\t-m\tmerge two codes for a new code\n");
-    printf("\nFLAGS\n");
+    printf("\nOPTIONS\n");
     printf("\t--help\tdisplay this instruction\n");
     printf("\t--vers\tget the version of genecode\n");
     printf("\nEXAMPLES\n");
